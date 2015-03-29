@@ -29,6 +29,7 @@
 }
 -(void)createBgimageView
 {
+    //纪念一下GITHUB被某度攻击的时刻
     self.bgImageView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 64, self.view.bounds.size.width, self.view.bounds.size.height-64)];
     self.bgImageView.image = [UIImage imageNamed:@"23.jpg"];
     self.bgImageView.userInteractionEnabled = YES;
